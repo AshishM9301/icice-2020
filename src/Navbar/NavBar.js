@@ -26,11 +26,9 @@ export default function NavBar() {
           <div className='p-4 hover:bg-blue-700'>Registration</div>
           <div className='p-4 hover:bg-blue-700'>Important Dates</div>
           <div className='dropdown inline rounded hover:bg-blue-500 hover:text-gray-100 z-50'>
-            <a
-              href=''
-              className='relative block mr-3 bg-transparent hover:bg-blue-700 p-4 border border-blue-500 hover:border-transparent rounded'>
+            <div className='relative block mr-3 bg-transparent hover:bg-blue-700 p-4 border border-blue-500 hover:border-transparent rounded'>
               Committees ▾
-            </a>
+            </div>
             <div className='dropdown-menu absolute hidden h-auto flex pt-2'>
               <div className='block w-full rounded bg-blue-500 border border-blue-400 shadow px-4 py-2'>
                 <div className='flex flex-col'>{hoverCommittee()}</div>
