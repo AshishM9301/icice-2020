@@ -41,6 +41,7 @@ function LeftSideBar() {
                   <img
                     class='max-w-full'
                     src='http://nitmeghalaya.in/nitmeghalaya/ckfinder/userfiles/images/dir.JPG'
+                    alt=' Prof. Bibhuti Bhusan Biswal'
                   />
                 </div>
                 <div className='my-4'>
@@ -58,6 +59,7 @@ function LeftSideBar() {
                   <img
                     class='max-w-full'
                     src='http://www.nitie.ac.in/sites/default/files/Director-2019.png'
+                    alt=' Prof Manoj K Tiwari'
                   />
                 </div>
                 <div>
@@ -76,6 +78,7 @@ function LeftSideBar() {
                   <img
                     class='max-w-full'
                     src='https://drbiswajitsarkar.com/wp-content/uploads/2019/08/190.jpg'
+                    alt='Prof. Biswajit Sarkar'
                   />
                 </div>
                 <div>
