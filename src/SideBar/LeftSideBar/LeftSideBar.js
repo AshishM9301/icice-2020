@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import upload from '../../images/upload.jpg';
 
 function LeftSideBar() {
@@ -6,7 +8,7 @@ function LeftSideBar() {
     <div>
       <div className='border-4 border-green-600 p-4 rounded'>
         <div className='font-spartan bg-gary-100 text-gray-700 text-2xl p-4 text-center rounded'>
-          <div className='flex'>
+          <Link to='/register' className='flex'>
             <div className='w-32 mx-auto'>
               <img
                 src={upload}
@@ -15,7 +17,7 @@ function LeftSideBar() {
               />
             </div>
             <div className='self-center'>Conference Registration</div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className='border-4 my-10 border-green-600 p-4 rounded'>

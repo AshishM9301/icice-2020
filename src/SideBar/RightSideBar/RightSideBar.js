@@ -9,9 +9,11 @@ function RightSideBar() {
         <div className='font-spartan bg-blue-800 text-gray-300 text-3xl p-4 text-center rounded'>
           Paper Submission
         </div>
-        <div className='w-full p-6'>
+        <a
+          href='https://easychair.org/conferences/?conf=icice2020'
+          className='w-full p-6'>
           <img src={easy} alt='easy' className='max-w-full mx-auto' />
-        </div>
+        </a>
       </div>
       <div className='border-4 border-green-600 p-4 my-10 rounded'>
         <div className='font-spartan bg-blue-800 text-gray-300 text-3xl p-4 text-center rounded'>

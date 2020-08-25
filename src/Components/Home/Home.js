@@ -81,10 +81,10 @@ function Home() {
             </div>
           </div>
           <div className='flex flex-col xl:flex-row'>
-            <div className='xl:w-1/4 border'>30 September 2020</div>
-            <div className='xl:w-1/4 border '>15 November-2020</div>
-            <div className='xl:w-1/4 border '>25 November-2020</div>
-            <div className='xl:w-1/4 border '>5 December-2020</div>
+            <div className='xl:w-1/4 border xl:py-4'>30 September 2020</div>
+            <div className='xl:w-1/4 border xl:py-4'>15 November-2020</div>
+            <div className='xl:w-1/4 border xl:py-4'>25 November-2020</div>
+            <div className='xl:w-1/4 border xl:py-4'>5 December-2020</div>
           </div>
         </div>
       </div>

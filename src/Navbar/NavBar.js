@@ -6,9 +6,15 @@ export default function NavBar() {
     return (
       <div className='text-base'>
         <div className='flex-col flex'>
-          <div className='p-4 rounded hover:bg-blue-700'>Organising</div>
-          <div className='p-4 rounded hover:bg-blue-700'>Advisory</div>
-          <div className='p-4 rounded hover:bg-blue-700'>Technical</div>
+          <Link to='/organising' className='p-4 rounded hover:bg-blue-700'>
+            Organising
+          </Link>
+          <Link to='/advisory' className='p-4 rounded hover:bg-blue-700'>
+            Advisory
+          </Link>
+          <Link to='/technical' className='p-4 rounded hover:bg-blue-700'>
+            Technical
+          </Link>
         </div>
       </div>
     );
@@ -22,9 +28,15 @@ export default function NavBar() {
             Home
           </Link>
           <div className='p-4 hover:bg-blue-700'>About KIIT</div>
-          <div className='p-4 hover:bg-blue-700'>Call for Paper</div>
-          <div className='p-4 hover:bg-blue-700'>Registration</div>
-          <div className='p-4 hover:bg-blue-700'>Important Dates</div>
+          <Link to='/callforpaper' className='p-4 hover:bg-blue-700'>
+            Call for Paper
+          </Link>
+          <Link to='/register' className='p-4 hover:bg-blue-700'>
+            Registration
+          </Link>
+          <Link to='/importantdates' className='p-4 hover:bg-blue-700'>
+            Important Dates
+          </Link>
           <div className='dropdown inline rounded hover:bg-blue-500 hover:text-gray-100 z-50'>
             <div className='relative block mr-3 bg-transparent hover:bg-blue-700 p-4 border border-blue-500 hover:border-transparent rounded'>
               Committees ▾
@@ -36,10 +48,17 @@ export default function NavBar() {
             </div>
           </div>
           <div className='p-4 hover:bg-blue-700'>Sponsor</div>
-          <div className='p-4 hover:bg-blue-700'>Invited Speaker</div>
-          <div className='p-4 hover:bg-blue-700'> Paper Submission</div>
+          <Link to='/keynotespeaker' className='p-4 hover:bg-blue-700'>
+            Invited Speaker
+          </Link>
+          <Link to='/papersubmission' className='p-4 hover:bg-blue-700'>
+            {' '}
+            Paper Submission
+          </Link>
           <div className='p-4 hover:bg-blue-700'>Accomondation</div>
-          <div className='p-4 hover:bg-blue-700'>Contact</div>
+          <Link to='/contact' className='p-4 hover:bg-blue-700'>
+            Contact
+          </Link>
         </div>
       </div>
     </div>
