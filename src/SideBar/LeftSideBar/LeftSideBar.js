@@ -8,7 +8,11 @@ function LeftSideBar() {
         <div className='font-spartan bg-gary-100 text-gray-700 text-2xl p-4 text-center rounded'>
           <div className='flex'>
             <div className='w-32 mx-auto'>
-              <img src={upload} className='rounded-full border max-w-full' />
+              <img
+                src={upload}
+                className='rounded-full border max-w-full'
+                alt='upload'
+              />
             </div>
             <div className='self-center'>Conference Registration</div>
           </div>

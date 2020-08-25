@@ -10,7 +10,7 @@ function RightSideBar() {
           Paper Submission
         </div>
         <div className='w-full p-6'>
-          <img src={easy} className='max-w-full mx-auto' />
+          <img src={easy} alt='easy' className='max-w-full mx-auto' />
         </div>
       </div>
       <div className='border-4 border-green-600 p-4 my-10 rounded'>
@@ -29,7 +29,7 @@ function RightSideBar() {
           Conference Venue
         </div>
         <div className='w-full mx-auto p-6'>
-          <img src={venue} className='max-w-full mx-auto' />
+          <img src={venue} alt='venue' className='max-w-full mx-auto' />
         </div>
         <div className='px-6 text-justify'>
           School of Mechanical Engineering, Kalinga Institute of Industrial
