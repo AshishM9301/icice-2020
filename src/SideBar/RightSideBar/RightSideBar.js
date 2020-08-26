@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import easy from '../../images/easy.jpg';
 import venue from '../../images/venue.jpg';
 
@@ -20,7 +21,7 @@ function RightSideBar() {
           Information for Author
         </div>
         <div className=' text-xl p-6 text-blue-700'>
-          <div>Registration Form</div>
+          <Link to='/regitser'>Registration Form</Link>
           <div>Publication</div>
           <div>Brochure</div>
           <div>Special Session</div>

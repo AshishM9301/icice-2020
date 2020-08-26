@@ -122,3 +122,17 @@
         transform: translate3d(0, -400px, 0);
     }
 }
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .hide {
+        display: block;
+    }
+
+    .navhide {
+        display: none
+    }
+}
