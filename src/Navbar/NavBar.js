@@ -44,7 +44,11 @@ export default function NavBar() {
             className={`${
               Display ? `block` : 'navhide'
             } flex flex-col xl:flex-row`}>
-            <div className='p-4 hover:bg-blue-700'>About KIIT</div>
+            <a
+              href='https://kiit.ac.in/about/'
+              className='p-4 hover:bg-blue-700'>
+              About KIIT
+            </a>
             <Link to='/callforpaper' className='p-4 hover:bg-blue-700'>
               Call for Paper
             </Link>
@@ -64,7 +68,7 @@ export default function NavBar() {
                 </div>
               </div>
             </div>
-            <div className='p-4 hover:bg-blue-700'>Sponsor</div>
+
             <Link to='/keynotespeaker' className='p-4 hover:bg-blue-700'>
               Invited Speaker
             </Link>
@@ -72,7 +76,7 @@ export default function NavBar() {
               {' '}
               Paper Submission
             </Link>
-            <div className='p-4 hover:bg-blue-700'>Accomondation</div>
+
             <Link to='/contact' className='p-4 hover:bg-blue-700'>
               Contact
             </Link>
