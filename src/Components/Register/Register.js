@@ -14,35 +14,68 @@ function Register() {
             <div className='bg-blue-500 rounded py-4 text-gray-100 '>
               Early Bird Rounds
             </div>
-            <div className='flex'>
-              <div className='w-1/2 mx-auto border '>
-                <div className='p-4 xl:text-2xl bg-gray-800 rounded text-gray-100'>
-                  Category
+            <div>
+              <div className='flex'>
+                <div className='w-1/2 mx-auto border '>
+                  <div className='p-4 xl:text-2xl bg-gray-800 rounded text-gray-100'>
+                    Category
+                  </div>
                 </div>
-                <div className='text-base'>
-                  <div className='border py-4'>Research Scholar/Students</div>
-                  <div className='border py-4'>Academician</div>
-                  <div className='border py-4'>Industrial Participant</div>
-                  <div className='border py-4'>Only Participation</div>
-                  <div className='border py-4 border-b-0'>
-                    Foreign Delegates
+                <div className='w-1/2 mx-auto border'>
+                  <div className='p-4 xl:text-2xl bg-gray-800 rounded text-gray-100'>
+                    Registration Fee
                   </div>
                 </div>
               </div>
-
-              <div className='w-1/2 mx-auto border'>
-                <div className='p-4 xl:text-2xl bg-gray-800 rounded text-gray-100'>
-                  Registration Fee
+              <div className='text-base'>
+                <div className='flex'>
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4'>Research Scholar/Students</div>
+                  </div>
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4'>₹ 6,000</div>
+                  </div>
                 </div>
-                <div className='text-base'>
-                  <div className='border py-4'>₹ 6,000</div>
-                  <div className='border py-4'>₹ 7,000</div>
-                  <div className='border py-4'>₹ 8,000</div>
-                  <div className='border py-4'>₹ 2,000</div>
-                  <div className='border py-4'>$ 200</div>
+                <div className='flex'>
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4'>Academician</div>
+                  </div>
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4'>₹ 7,000</div>
+                  </div>
+                </div>
+
+                <div className='flex'>
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4'>Industrial Participant</div>
+                  </div>
+                  <div className='w-1/2 mx-auto border '>
+                    <div className=''>₹ 8,000</div>
+                  </div>
+                </div>
+                <div className='flex'>
+                  {' '}
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4'>Only Participation</div>{' '}
+                  </div>
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4'>₹ 2,000</div>
+                  </div>
+                </div>
+
+                <div className='flex'>
+                  {' '}
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4 border-b-0'>Foreign Delegates</div>
+                  </div>
+                  <div className='w-1/2 mx-auto border '>
+                    <div className='py-4'>$ 200</div>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div className='text-base'></div>
           </div>
         </li>
         <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold'>
