@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import easy from '../../images/easy.jpg';
-import venue from '../../images/venue.jpg';
+import spocus from '../../images/spocus.jpg';
 
 function RightSideBar() {
   return (
@@ -20,24 +20,30 @@ function RightSideBar() {
         <div className='font-spartan bg-blue-800 text-gray-300 text-3xl p-4 text-center rounded'>
           Information for Author
         </div>
-        <div className=' text-xl p-6 text-blue-700'>
-          <Link to='/regitser'>Registration Form</Link>
-          <div>Publication</div>
-          <div>Brochure</div>
-          <div>Special Session</div>
+        <div className=' text-xl flex flex-col leading-loose p-6 text-blue-700'>
+          <Link to='/register'>Registration Form</Link>
+          <Link to='/callforpaper'>Call for Paper</Link>
+          <Link to='importantdates'>Important Dates</Link>
         </div>
       </div>
       <div className='border-4 border-green-600 p-4 rounded'>
         <div className='font-spartan bg-blue-800 text-gray-300 text-3xl p-4 text-center rounded'>
-          Conference Venue
+          Proceedings indexed by
+        </div>
+
+        <div className='w-full mx-auto p-6'>
+          <img
+            src={easy}
+            alt='venue'
+            className='max-w-full rounded border p-4 mx-auto'
+          />
         </div>
         <div className='w-full mx-auto p-6'>
-          <img src={venue} alt='venue' className='max-w-full mx-auto' />
-        </div>
-        <div className='px-6 text-justify'>
-          School of Mechanical Engineering, Kalinga Institute of Industrial
-          Technology (KIIT), Deemed to be University, Bhubaneswar, Odisha,
-          India, Pin: 751024
+          <img
+            src={spocus}
+            alt='venue'
+            className='max-w-full rounded border p-4 mx-auto'
+          />
         </div>
       </div>
     </div>

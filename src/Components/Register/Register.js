@@ -59,7 +59,9 @@ function Register() {
         </li>
         <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold'>
           Please send the scanned copy of duly filled form to
-          <a href='mailto:convener.icice@kiit.ac.in' className='text-blue-500'>
+          <a
+            href='mailto:convener.icice@kiit.ac.in'
+            className='text-blue-500 mx-2'>
             convener.icice@kiit.ac.in
           </a>
           along with the proof of fee submission.

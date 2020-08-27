@@ -15,6 +15,7 @@ import TechnicalCommittees from './Components/Committee/TechnicalCommittees/Tech
 import KeyNoteSpeaker from './Components/KeyNoteSpeaker/KeyNoteSpeaker';
 import PaperSubmission from './Components/PaperSubmission/PaperSubmission';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Notice from './Notice/Notice';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <div className='min-h-screen'>
         <NavBar />
         <Header />
+        <Notice />
         <div className='flex xl:flex-row flex-col mt-16'>
           <div className='xl:w-1/5 mx-auto p-6'>
             <RightSideBar />

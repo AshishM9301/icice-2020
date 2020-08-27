@@ -46,10 +46,14 @@ export default function NavBar() {
             } flex flex-col xl:flex-row`}>
             <a
               href='https://kiit.ac.in/about/'
+              target='_blank'
               className='p-4 hover:bg-blue-700'>
               About KIIT
             </a>
-            <Link to='/callforpaper' className='p-4 hover:bg-blue-700'>
+            <Link
+              onClick={toggle}
+              to='/callforpaper'
+              className='p-4 hover:bg-blue-700'>
               Call for Paper
             </Link>
             <Link to='/register' className='p-4 hover:bg-blue-700'>
