@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import easy from '../../images/easy.jpg';
+import springer from '../../images/springer.jpg';
 import spocus from '../../images/spocus.jpg';
 
 function RightSideBar() {
@@ -33,7 +34,7 @@ function RightSideBar() {
 
         <div className='w-full mx-auto p-6'>
           <img
-            src={easy}
+            src={springer}
             alt='venue'
             className='max-w-full rounded border p-4 mx-auto'
           />
