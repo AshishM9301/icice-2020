@@ -47,6 +47,7 @@ export default function NavBar() {
             <a
               href='https://kiit.ac.in/about/'
               target='_blank'
+              rel='noopener noreferrer'
               className='p-4 hover:bg-blue-700'>
               About KIIT
             </a>

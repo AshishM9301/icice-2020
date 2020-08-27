@@ -41,7 +41,7 @@ function RightSideBar() {
         <div className='w-full mx-auto p-6'>
           <img
             src={spocus}
-            alt='venue'
+            alt='spocus'
             className='max-w-full rounded border p-4 mx-auto'
           />
         </div>
