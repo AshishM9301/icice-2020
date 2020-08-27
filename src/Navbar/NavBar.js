@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 export default function NavBar(props) {
   const [Display, setSidplay] = useState(false);
-  const [Msg, setMsg] = useState('');
 
   const toggle = () => {
     setSidplay(!Display);
@@ -11,7 +10,7 @@ export default function NavBar(props) {
 
   const sendMessage = (data) => {
     console.log(data);
-    setMsg(data);
+
     setSidplay(!Display);
     props.getMessage(data);
   };
@@ -47,10 +46,11 @@ export default function NavBar(props) {
     <div>
       <div className='bg-blue-500 text-gray-100'>
         <div className={`flex xl:flex-row flex-col xl:justify-end text-base`}>
-          <div
-            onClick={() => sendMessage('Home')}
-            className='flex flex-row justify-between'>
-            <Link to='/' className='p-4 hover:bg-blue-700'>
+          <div className='flex flex-row justify-between'>
+            <Link
+              to='/'
+              onClick={() => sendMessage('Home')}
+              className='p-4 hover:bg-blue-700'>
               Home
             </Link>
             <div className='p-4 hide'>
