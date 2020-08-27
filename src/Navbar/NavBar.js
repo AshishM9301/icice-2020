@@ -12,13 +12,22 @@ export default function NavBar() {
     return (
       <div className='text-base'>
         <div className='flex-col flex'>
-          <Link to='/organising' className='p-4 rounded hover:bg-blue-700'>
+          <Link
+            to='/organising'
+            onClick={toggle}
+            className='p-4 rounded hover:bg-blue-700'>
             Organising
           </Link>
-          <Link to='/advisory' className='p-4 rounded hover:bg-blue-700'>
+          <Link
+            to='/advisory'
+            onClick={toggle}
+            className='p-4 rounded hover:bg-blue-700'>
             Advisory
           </Link>
-          <Link to='/technical' className='p-4 rounded hover:bg-blue-700'>
+          <Link
+            to='/technical'
+            onClick={toggle}
+            className='p-4 rounded hover:bg-blue-700'>
             Technical
           </Link>
         </div>
@@ -57,10 +66,16 @@ export default function NavBar() {
               className='p-4 hover:bg-blue-700'>
               Call for Paper
             </Link>
-            <Link to='/register' className='p-4 hover:bg-blue-700'>
+            <Link
+              onClick={toggle}
+              to='/register'
+              className='p-4 hover:bg-blue-700'>
               Registration
             </Link>
-            <Link to='/importantdates' className='p-4 hover:bg-blue-700'>
+            <Link
+              onClick={toggle}
+              to='/importantdates'
+              className='p-4 hover:bg-blue-700'>
               Important Dates
             </Link>
             <div className='dropdown inline rounded hover:bg-blue-500 hover:text-gray-100 z-50'>
@@ -74,15 +89,24 @@ export default function NavBar() {
               </div>
             </div>
 
-            <Link to='/keynotespeaker' className='p-4 hover:bg-blue-700'>
+            <Link
+              onClick={toggle}
+              to='/keynotespeaker'
+              className='p-4 hover:bg-blue-700'>
               Invited Speaker
             </Link>
-            <Link to='/papersubmission' className='p-4 hover:bg-blue-700'>
+            <Link
+              onClick={toggle}
+              to='/papersubmission'
+              className='p-4 hover:bg-blue-700'>
               {' '}
               Paper Submission
             </Link>
 
-            <Link to='/contact' className='p-4 hover:bg-blue-700'>
+            <Link
+              onClick={toggle}
+              to='/contact'
+              className='p-4 hover:bg-blue-700'>
               Contact
             </Link>
           </div>

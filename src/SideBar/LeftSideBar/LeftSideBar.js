@@ -53,6 +53,8 @@ function LeftSideBar() {
                 <div className='my-4'>
                   <a
                     href='http://2018nitm.nitmeghalaya.in/department/mechanical-engineering-1/faculty-7/dr-bibhuti-bhusan-biswal'
+                    target='_blank'
+                    rel='noopener noreferrer'
                     class='text-center'>
                     Prof. Bibhuti Bhusan Biswal
                   </a>
@@ -71,6 +73,8 @@ function LeftSideBar() {
                 <div>
                   <a
                     href='http://www.nitie.ac.in/about-director'
+                    target='_blank'
+                    rel='noopener noreferrer'
                     class='text-center'>
                     Prof Manoj K Tiwari
                   </a>
@@ -88,7 +92,11 @@ function LeftSideBar() {
                   />
                 </div>
                 <div>
-                  <a href='https://drbiswajitsarkar.com/' class='text-center'>
+                  <a
+                    href='https://drbiswajitsarkar.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    class='text-center'>
                     Prof. Biswajit Sarkar
                   </a>
                   <p>

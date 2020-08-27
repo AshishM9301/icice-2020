@@ -28,7 +28,10 @@ function PaperSubmission() {
           <div className='my-4'>
             Submit your Article/Review/Research Paper to Submit
           </div>
-          <a href='https://easychair.org/conferences/?conf=icice2020'>
+          <a
+            href='https://easychair.org/conferences/?conf=icice2020'
+            target='_blank'
+            rel='noopener noreferrer'>
             <div className='w-40 mx-auto shadow border p-2 rounded'>
               <img src={easy} alt='easy' className='max-w-full' />
             </div>
