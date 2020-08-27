@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function NavBar() {
+export default function NavBar(props) {
   const [Display, setSidplay] = useState(false);
+  const [Msg, setMsg] = useState('');
 
   const toggle = () => {
     setSidplay(!Display);
+  };
+
+  const sendMessage = (data) => {
+    console.log(data);
+    setMsg(data);
+    console.log(Msg);
+    props.getMessage(data);
   };
 
   const hoverCommittee = () => {
@@ -14,19 +22,19 @@ export default function NavBar() {
         <div className='flex-col flex'>
           <Link
             to='/organising'
-            onClick={toggle}
+            onClick={() => sendMessage('Organising Committies')}
             className='p-4 rounded hover:bg-blue-700'>
             Organising
           </Link>
           <Link
             to='/advisory'
-            onClick={toggle}
+            onClick={() => sendMessage('Advisory Committies')}
             className='p-4 rounded hover:bg-blue-700'>
             Advisory
           </Link>
           <Link
             to='/technical'
-            onClick={toggle}
+            onClick={() => sendMessage('Technical Committies')}
             className='p-4 rounded hover:bg-blue-700'>
             Technical
           </Link>
@@ -39,7 +47,9 @@ export default function NavBar() {
     <div>
       <div className='bg-blue-500 text-gray-100'>
         <div className={`flex xl:flex-row flex-col xl:justify-end text-base`}>
-          <div className='flex flex-row justify-between'>
+          <div
+            onClick={() => sendMessage('Home')}
+            className='flex flex-row justify-between'>
             <Link to='/' className='p-4 hover:bg-blue-700'>
               Home
             </Link>
@@ -61,19 +71,19 @@ export default function NavBar() {
               About KIIT
             </a>
             <Link
-              onClick={toggle}
+              onClick={() => sendMessage('Call for Paper')}
               to='/callforpaper'
               className='p-4 hover:bg-blue-700'>
               Call for Paper
             </Link>
             <Link
-              onClick={toggle}
+              onClick={() => sendMessage('Registration Page')}
               to='/register'
               className='p-4 hover:bg-blue-700'>
               Registration
             </Link>
             <Link
-              onClick={toggle}
+              onClick={() => sendMessage('Important Dates Page')}
               to='/importantdates'
               className='p-4 hover:bg-blue-700'>
               Important Dates
@@ -90,21 +100,20 @@ export default function NavBar() {
             </div>
 
             <Link
-              onClick={toggle}
+              onClick={() => sendMessage('Keynote Speakers Page')}
               to='/keynotespeaker'
               className='p-4 hover:bg-blue-700'>
               Invited Speaker
             </Link>
             <Link
-              onClick={toggle}
+              onClick={() => sendMessage('Paper Submission Page')}
               to='/papersubmission'
               className='p-4 hover:bg-blue-700'>
-              {' '}
               Paper Submission
             </Link>
 
             <Link
-              onClick={toggle}
+              onClick={() => sendMessage('Contact Us Page')}
               to='/contact'
               className='p-4 hover:bg-blue-700'>
               Contact

@@ -1,10 +1,25 @@
 import React from 'react';
 import logo from '../images/logo.png';
 import kiitlogo from '../images/kiit-logo-.png';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-function Header() {
+function Header(props) {
+  if (props.sendMessage) {
+    toast(props.sendMessage, {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+  }
+
   return (
     <div>
+      <ToastContainer />
       <div className='flex xl:flex-row flex-col justify-between py-8 px-4'>
         <div className='w-40 self-center'>
           <img src={logo} className='max-w-full mx-auto' alt='icice logo' />

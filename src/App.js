@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NavBar from './Navbar/NavBar';
 import Home from './Components/Home/Home';
 import Header from './Header/Header';
@@ -18,11 +18,16 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import Notice from './Notice/Notice';
 
 function App() {
+  const [Msg, setMsg] = useState('');
+  console.log(Msg);
+  const sendMessage = (data) => {
+    setMsg(data);
+  };
   return (
     <div>
       <div className='min-h-screen'>
-        <NavBar />
-        <Header />
+        <NavBar getMessage={sendMessage} />
+        <Header sendMessage={Msg} />
         <Notice />
         <div className='flex xl:flex-row flex-col mt-16'>
           <div className='xl:w-1/5 mx-auto p-6'>

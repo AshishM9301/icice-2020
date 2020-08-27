@@ -20,7 +20,7 @@ function Home() {
           publishes original research articles, review articles and feature
           articles in the area of industrial engineering and management .
         </div>
-        <div className='p-6 mt-12 text-3xl text-gray-700 font-didcat font-semibold uppercase '>
+        <div className='p-6 mt-12 text-3xl text-left text-gray-700 font-didcat font-semibold uppercase '>
           ABOUT KIIT DEEMED TO BE UNIVERSITY
         </div>
         <div>
