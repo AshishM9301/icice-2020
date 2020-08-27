@@ -12,7 +12,7 @@ export default function NavBar(props) {
   const sendMessage = (data) => {
     console.log(data);
     setMsg(data);
-    console.log(Msg);
+    setSidplay(!Display);
     props.getMessage(data);
   };
 

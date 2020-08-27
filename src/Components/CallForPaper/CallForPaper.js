@@ -63,7 +63,7 @@ function CallForPaper() {
           <div className='pb-6 mt-8 text-2xl text-center text-gray-700 font-didcat font-semibold uppercase '>
             Industrial Engineering and Management
           </div>
-          <div className='flex flex-col flex-wrap' style={{ height: '90rem' }}>
+          <div className='flex flex-col flex-wrap height'>
             <li>Agility in Supply chain and Manufacturing</li>
             <li>Costumer Relationship</li>
             <li>Data Mining and Machine Learning</li>
