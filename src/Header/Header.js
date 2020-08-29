@@ -9,7 +9,7 @@ function Header(props) {
     <div>
       <ToastContainer />
       <div className='flex xl:flex-row flex-col justify-between py-8 px-4'>
-        <div className='flex justify-between'>
+        <div className='flex mx-auto justify-between'>
           <div className='xl:w-40 mx-auto w-20 self-center'>
             <img src={logo} className='max-w-full mx-auto' alt='icice logo' />
           </div>
