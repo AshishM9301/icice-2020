@@ -21,10 +21,12 @@ function Header(props) {
               </div>
               <hr />
               <div className=' text-sm pb-2 pt-4'>
-                Organised by School of Mechanical Engineering, Kalinga Institute
-                of Industrial Technology, Bhubaneswar, Odisha
+                Organised by School of Mechanical Engineering, KIIT Deemed to be
+                University, Bhubaneswar, Odisha
               </div>
-              <div className='text-base'>18th-20th December 2020</div>
+              <div className='text-base text-gray-800'>
+                18th-20th December 2020
+              </div>
             </div>
           </div>
           <div className='xl:w-40 mx-auto w-20 self-center'>

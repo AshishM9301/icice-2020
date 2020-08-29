@@ -8,7 +8,7 @@ function Notice() {
           <div className='marquee p-4 overflow-x-hidden'>
             <p>
               All the accepted paper will be published in " Lecture Notes in
-              management and Industrial Engineering " (Scopus Indexed)
+              management and Industrial Engineering "
             </p>
           </div>
         </div>
