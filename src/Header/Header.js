@@ -16,15 +16,15 @@ function Header(props) {
           <div className='px-4 '>
             <div className='xl:text-2xl text-xl text-gray-800 font-spartan font-bold text-center'>
               <div className='text-3xl p-2'>ICICE-2020</div>
-              <div className='xl:text-3xl text-base p-2 pb-4'>
+              <div className='xl:text-3xl text-sm p-2 pb-4'>
                 International Conference on Industry 4.0 & Circular Economy
               </div>
               <hr />
-              <div className=' xl:block hidden pb-2 pt-4'>
+              <div className=' text-sm pb-2 pt-4'>
                 Organised by School of Mechanical Engineering, Kalinga Institute
                 of Industrial Technology, Bhubaneswar, Odisha
               </div>
-              <div className=''>18th-20th December 2020</div>
+              <div className='text-base'>18th-20th December 2020</div>
             </div>
           </div>
           <div className='xl:w-40 mx-auto w-20 self-center'>
