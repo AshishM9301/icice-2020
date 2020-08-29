@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/logo.png';
 import kiitlogo from '../images/kiit-logo-.png';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Header(props) {
