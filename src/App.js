@@ -51,7 +51,7 @@ function App() {
               />
             </Switch>
           </div>
-          <div className='xl:w-1/5 xl:block hidden mx-auto p-6'>
+          <div className='xl:w-1/5 mx-auto p-6'>
             <LeftSideBar />
           </div>
         </div>

@@ -20,11 +20,11 @@ function Header(props) {
                 International Conference on Industry 4.0 & Circular Economy
               </div>
               <hr />
-              <div className=' text-sm pb-2 pt-4'>
+              <div className=' text-sm xl:text-2xl pb-2 pt-4'>
                 Organised by School of Mechanical Engineering, KIIT Deemed to be
                 University, Bhubaneswar, Odisha
               </div>
-              <div className='text-base text-gray-800'>
+              <div className='text-base xl:text-2xl text-gray-800'>
                 18th-20th December 2020
               </div>
             </div>
