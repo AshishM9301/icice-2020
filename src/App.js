@@ -29,8 +29,8 @@ function App() {
         <NavBar getMessage={sendMessage} />
         <Header sendMessage={Msg} />
         <Notice />
-        <div className='flex xl:flex-row flex-col mt-16'>
-          <div className='xl:w-1/5 mx-auto xl:block hidden p-6'>
+        <div className='flex xl:flex-row flex-col xl:mt-16'>
+          <div className='xl:w-1/5 mx-auto p-6'>
             <RightSideBar />
           </div>
           <div className='xl:w-3/5 w-full mx-auto  md:p-6'>

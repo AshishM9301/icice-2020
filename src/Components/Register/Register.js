@@ -33,7 +33,7 @@ function Register() {
                     <div className='py-4'>Research Scholar/Students</div>
                   </div>
                   <div className='w-1/2 mx-auto border '>
-                    <div className='py-4'>₹ 6,000</div>
+                    <div className='py-4'>₹ 2,000</div>
                   </div>
                 </div>
                 <div className='flex'>
@@ -41,7 +41,7 @@ function Register() {
                     <div className='py-4'>Academician</div>
                   </div>
                   <div className='w-1/2 mx-auto border '>
-                    <div className='py-4'>₹ 7,000</div>
+                    <div className='py-4'>₹ 3,000</div>
                   </div>
                 </div>
 
@@ -50,7 +50,7 @@ function Register() {
                     <div className='py-4'>Industrial Participant</div>
                   </div>
                   <div className='w-1/2 mx-auto border '>
-                    <div className=''>₹ 8,000</div>
+                    <div className=''>₹ 4,000</div>
                   </div>
                 </div>
                 <div className='flex'>
@@ -59,7 +59,7 @@ function Register() {
                     <div className='py-4'>Only Participation</div>{' '}
                   </div>
                   <div className='w-1/2 mx-auto border '>
-                    <div className='py-4'>₹ 2,000</div>
+                    <div className='py-4'>₹ 1,000</div>
                   </div>
                 </div>
 
@@ -69,7 +69,7 @@ function Register() {
                     <div className='py-4 border-b-0'>Foreign Delegates</div>
                   </div>
                   <div className='w-1/2 mx-auto border '>
-                    <div className='py-4'>$ 200</div>
+                    <div className='py-4'>$ 50</div>
                   </div>
                 </div>
               </div>
@@ -79,39 +79,14 @@ function Register() {
           </div>
         </li>
         <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold'>
-          Author/Co-Author Registration Fee Includes:
-          <div className='text-xl font-spartan font-normal px-6 py-2'>
-            <ul className='list-disc list-inside '>
-              <li>Welcome reception</li>
-              <li>Conference Kit</li>
-              <li>Snacks</li>
-              <li>Lunch</li>
-              <li>Founders Dinner</li>
-            </ul>
-          </div>
-        </li>
-        <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold'>
-          Please send the scanned copy of duly filled form to
           <a
-            href='mailto:convener.icice@kiit.ac.in'
-            className='text-blue-500 mx-2'>
-            convener.icice@kiit.ac.in
+            href=' '
+            className='text-blue-400'
+            target='_blank'
+            rel='noopener noreferrer'>
+            {' '}
+            Click Here to Register
           </a>
-          along with the proof of fee submission.
-        </li>
-        <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold '>
-          <div className='flex'>
-            <div className='self-center'>
-              Link to Download Registration form{' '}
-            </div>
-            <div className='w-20 mx-10'>
-              <img
-                src={downloadlogo}
-                className='max-w-full'
-                alt='download form'
-              />
-            </div>
-          </div>
         </li>
         <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold '>
           <div className='flex'>

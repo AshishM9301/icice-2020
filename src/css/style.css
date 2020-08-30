@@ -1,194 +1,213 @@
 .font-ubuntu {
-    font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .font-cuprum {
-    font-family: "Cuprum", sans-serif;
+  font-family: 'Cuprum', sans-serif;
 }
 
 .font-spartan {
-    font-family: 'Spartan', sans-serif;
+  font-family: 'Spartan', sans-serif;
 }
 
 .font-sanchez {
-    font-family: 'Sanchez', serif;
+  font-family: 'Sanchez', serif;
 }
 
 .font-didcat {
-    font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .font-rowdies {
-    font-family: 'Rowdies', cursive;
+  font-family: 'Rowdies', cursive;
 }
 
 .font-slabo27 {
-    font-family: 'Slabo 27px', serif;
+  font-family: 'Slabo 27px', serif;
 }
 
 .font-abrilfatface {
-    font-family: 'Abril Fatface', cursive;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+  display: block;
 }
 
 .image-cover {
-    box-shadow: 5px 10px 8px #888888;
-    background-size: cover;
+  box-shadow: 5px 10px 8px #888888;
+  background-size: cover;
 
-    animation: animate 16s ease-in-out infinite;
-    background-image: linear-gradient(-130deg, rgba(0, 0, 0, 0.8), rgba(100, 167, 87, .38)), url("../images/tool-1.jpg");
+  animation: animate 16s ease-in-out infinite;
+  background-image: linear-gradient(
+      -130deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(100, 167, 87, 0.38)
+    ),
+    url('../images/tool-1.jpg');
 }
 
 @keyframes animate {
+  0%,
+  100% {
+    background-image: linear-gradient(
+        -130deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(100, 167, 87, 0.38)
+      ),
+      url('../images/tool-1.jpg');
+  }
 
-    0%,
-    100% {
-        background-image: linear-gradient(-130deg, rgba(0, 0, 0, 0.8), rgba(100, 167, 87, .38)), url("../images/tool-1.jpg");
-        ;
-    }
+  25% {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.9),
+        rgba(196, 86, 190, 0.6)
+      ),
+      url('../images/buiding.jpg');
+  }
 
-    25% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(196, 86, 190, .6)), url("../images/buiding.jpg");
-    }
+  50% {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(100, 167, 87, 0.6)
+      ),
+      url('../images/phone.jpg');
+  }
 
-    50% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(100, 167, 87, .6)), url("../images/phone.jpg");
-    }
-
-    75% {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(100, 167, 87, .38)), url('../images/crane.jpg');
-    }
+  75% {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(100, 167, 87, 0.38)
+      ),
+      url('../images/crane.jpg');
+  }
 }
 
 .move-uward {
-    animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite
+  animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
 @keyframes flip4 {
-    0% {
-        margin-top: -360px;
-    }
+  0% {
+    margin-top: -360px;
+  }
 
-    5% {
-        margin-top: -270px;
-    }
+  5% {
+    margin-top: -270px;
+  }
 
-    25% {
-        margin-top: -270px;
-    }
+  25% {
+    margin-top: -270px;
+  }
 
-    30% {
-        margin-top: -180px;
-    }
+  30% {
+    margin-top: -180px;
+  }
 
-    50% {
-        margin-top: -180px;
-    }
+  50% {
+    margin-top: -180px;
+  }
 
-    55% {
-        margin-top: -90px;
-    }
+  55% {
+    margin-top: -90px;
+  }
 
-    75% {
-        margin-top: -90px;
-    }
+  75% {
+    margin-top: -90px;
+  }
 
-    80% {
-        margin-top: 0px;
-    }
+  80% {
+    margin-top: 0px;
+  }
 
-    99.99% {
-        margin-top: -270px;
-    }
+  99.99% {
+    margin-top: -270px;
+  }
 
-    100% {
-        margin-top: -360px;
-    }
+  100% {
+    margin-top: -360px;
+  }
 }
 
 .flip {
-    animation: slide 20s linear infinite
+  animation: slide 20s linear infinite;
 }
 
 @keyframes slide {
-    0% {
-        transform: translate3d(0, 0, 0);
-    }
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
 
-    100% {
-        transform: translate3d(0, -50rem, 0);
-    }
+  100% {
+    transform: translate3d(0, -125rem, 0);
+  }
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .hide {
-        display: block;
-    }
+  .hide {
+    display: block;
+  }
 
-    .height {
-        height: 100%
-    }
+  .height {
+    height: 100%;
+  }
 
-    .navhide {
-        display: none
-    }
+  .navhide {
+    display: none;
+  }
 }
 
 .height {
-    height: '90rem'
+  height: '90rem';
 }
 
 .marquee p {
-
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    text-align: center;
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    -moz-animation: scroll-left 2s linear infinite;
-    -webkit-animation: scroll-left 2s linear infinite;
-    animation: scroll-left 20s linear infinite;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: scroll-left 2s linear infinite;
+  -webkit-animation: scroll-left 2s linear infinite;
+  animation: scroll-left 20s linear infinite;
 }
 
 @-moz-keyframes scroll-left {
-    0% {
-        -moz-transform: translateX(100%);
-    }
+  0% {
+    -moz-transform: translateX(100%);
+  }
 
-    100% {
-        -moz-transform: translateX(-100%);
-    }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
 }
 
 @-webkit-keyframes scroll-left {
-    0% {
-        -webkit-transform: translateX(100%);
-    }
+  0% {
+    -webkit-transform: translateX(100%);
+  }
 
-    100% {
-        -webkit-transform: translateX(-100%);
-    }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
 }
 
 @keyframes scroll-left {
-    0% {
-        -moz-transform: translateX(100%);
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
 
-    100% {
-        -moz-transform: translateX(-100%);
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%);
-    }
+  100% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
 }

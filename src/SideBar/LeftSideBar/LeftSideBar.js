@@ -2,6 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import upload from '../../images/upload.jpg';
+import Biswajit from '../../images/Biswajit.jpg';
+import pmeena from '../../images/pmeena.jpg';
+import manoj from '../../images/manoj.png';
+import kannan from '../../images/kannan.png';
+import Mahanty from '../../images/Mahanty.png';
+import malcolm from '../../images/malcolm.png';
 
 function LeftSideBar() {
   return (
@@ -40,12 +46,12 @@ function LeftSideBar() {
           Keynote Speakers
         </div>
         <div className='p-6 text-xl text-center'>
-          <div className='h-64 overflow-hidden rounded shadow border'>
+          <div className='h-64 overflow-hidden rounded text-sm shadow border'>
             <ul className='flip'>
-              <li className='my-4'>
-                <div className='w-40 mx-auto'>
+              <li className=''>
+                <div className='w-40 my-8 mx-auto'>
                   <img
-                    class='max-w-full'
+                    class='max-w-full rounded shadow border'
                     src='http://nitmeghalaya.in/nitmeghalaya/ckfinder/userfiles/images/dir.JPG'
                     alt=' Prof. Bibhuti Bhusan Biswal'
                   />
@@ -58,19 +64,20 @@ function LeftSideBar() {
                     class='text-center'>
                     Prof. Bibhuti Bhusan Biswal
                   </a>
-                  <p>Director NIT Meghalaya</p>
+                  <p>
+                    Department of Industrial Design, National Institute of
+                    Technology Rourkela
+                  </p>
                 </div>
-              </li>
-              <hr />
-              <li className='my-12'>
-                <div className='w-40 mx-auto'>
+
+                <div className='w-40 my-8 mx-auto'>
                   <img
-                    class='max-w-full'
-                    src='http://www.nitie.ac.in/sites/default/files/Director-2019.png'
+                    class='max-w-full rounded shadow border'
+                    src={manoj}
                     alt=' Prof Manoj K Tiwari'
                   />
                 </div>
-                <div>
+                <div className='my-4'>
                   <a
                     href='http://www.nitie.ac.in/about-director'
                     target='_blank'
@@ -80,18 +87,72 @@ function LeftSideBar() {
                   </a>
                   <p>Director NITIE Mumbai</p>
                 </div>
-              </li>
-              <hr />
 
-              <li className='my-12'>
-                <div className='w-40 mx-auto'>
+                <div className='w-40 my-8 mx-auto'>
                   <img
-                    class='max-w-full'
-                    src='https://drbiswajitsarkar.com/wp-content/uploads/2019/08/190.jpg'
+                    class='max-w-full rounded shadow border'
+                    src={malcolm}
+                    alt=' Dr Malcolm Brady'
+                  />
+                </div>
+                <div className='my-4'>
+                  <a
+                    href='https://business.dcu.ie/staff/dr-malcolm-brady/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    class='text-center'>
+                    Dr Malcolm Brady
+                  </a>
+                  <p> Associate Professor Management in DCU Business School</p>
+                </div>
+                <div className='w-40 my-8 mx-auto'>
+                  <img
+                    class='max-w-full rounded shadow border'
+                    src={kannan}
+                    alt=' Kannan Govindan, M.E., PhD.,'
+                  />
+                </div>
+                <div className='my-4'>
+                  <a
+                    href='https://portal.findresearcher.sdu.dk/en/persons/kgov'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    class='text-center'>
+                    Kannan Govindan, M.E., PhD.,
+                  </a>
+                  <p>
+                    Professor, Head of the Center for Sustainable Supply Chain
+                    Engineering at SDU{' '}
+                  </p>
+                </div>
+                <div className='w-40 my-8 mx-auto'>
+                  <img
+                    class='max-w-full mx-auto rounded shadow border'
+                    src={Mahanty}
+                    alt='Biswajit Mahanty '
+                  />
+                </div>
+                <div className='my-4'>
+                  <a
+                    href='http://www.iitkgp.ac.in/department/IM/faculty/im-bm'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    class='text-center'>
+                    Biswajit Mahanty
+                  </a>
+                  <p>
+                    Professor, Industrial & Systems Engineering in IIT Kharagpur
+                  </p>
+                </div>
+
+                <div className='w-40 my-8 mx-auto'>
+                  <img
+                    class='max-w-full rounded shadow border'
+                    src={Biswajit}
                     alt='Prof. Biswajit Sarkar'
                   />
                 </div>
-                <div>
+                <div className='my-4'>
                   <a
                     href='https://drbiswajitsarkar.com/'
                     target='_blank'
@@ -101,7 +162,28 @@ function LeftSideBar() {
                   </a>
                   <p>
                     Associate Professor, Department of Industrial Engineering,
-                    Yonsei University
+                    Yonsei University, South Korea.
+                  </p>
+                </div>
+
+                <div className='w-40 my-8 mx-auto'>
+                  <img
+                    class='max-w-full rounded shadow border'
+                    src={pmeena}
+                    alt='Dr Purushottam'
+                  />
+                </div>
+                <div className='my-4'>
+                  <a
+                    href='https://www.nyit.edu/bio/pmeena'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    class='text-center'>
+                    Dr Purushottam Meena
+                  </a>
+                  <p>
+                    Associate Professor, Operations Management New York
+                    Institute of Technology, USA
                   </p>
                 </div>
               </li>
