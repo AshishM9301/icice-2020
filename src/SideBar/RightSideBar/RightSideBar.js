@@ -36,8 +36,11 @@ function RightSideBar() {
           </div>
           <div className=' text-xl flex flex-col leading-loose p-6 text-blue-700'>
             <Link to='/register'>Registration Form</Link>
+            <Link to='/papersubmission'>Paper Submission Guidelines</Link>
+            <div>Poster</div>
+            <div>Brouchure</div>
             <Link to='/callforpaper'>Call for Paper</Link>
-            <Link to='importantdates'>Important Dates</Link>
+            <Link to='/importantdates'>Important Dates</Link>
           </div>
         </div>
         <div className='border-4 border-green-600 p-4 rounded'>

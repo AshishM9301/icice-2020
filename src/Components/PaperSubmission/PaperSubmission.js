@@ -24,7 +24,7 @@ function PaperSubmission() {
           <li className='my-4'>
             <a
               className='flex text-blue-500 flex-wrap'
-              href='https://www.springer.com/de/authors-editors/book-authors-editors/resources-guidelines/book-manuscript-guidelines/manuscript-preparation/5636#c3324'
+              href='https://www.springer.com/gp/authors-editors/conference-proceedings/conference-proceedings-guidelines'
               target='_blank'
               rel='noopener noreferrer'>
               <div className='self-center'>

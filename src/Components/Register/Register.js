@@ -5,7 +5,7 @@ function Register() {
   return (
     <div>
       <div className='font-spartan bg-blue-800 text-gray-300 text-3xl p-4 text-center rounded'>
-        Register Details
+        Registration Details
       </div>
       <ul className='list-decimal  p-10 my-4'>
         <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold'>
@@ -78,16 +78,6 @@ function Register() {
             <div className='text-base'></div>
           </div>
         </li>
-        <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold'>
-          <a
-            href=' '
-            className='text-blue-400'
-            target='_blank'
-            rel='noopener noreferrer'>
-            {' '}
-            Click Here to Register
-          </a>
-        </li>
         <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold '>
           <div className='flex'>
             <div className='self-center'>Account Details</div>
@@ -99,6 +89,15 @@ function Register() {
               />
             </div>
           </div>
+        </li>
+        <li className='pb-6 xl:text-3xl text-xl text-gray-700 font-didcat font-semibold'>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSebWxfFfchGHFKNNjBlq5YiXtQh1NFS8k7q5LjTUz0GL0ehXQ/viewform?usp=sf_link '
+            className='text-blue-400'
+            target='_blank'
+            rel='noopener noreferrer'>
+            Click Here to Register
+          </a>
         </li>
       </ul>
     </div>
