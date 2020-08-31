@@ -20,26 +20,29 @@ function Home() {
           publishes original research articles, review articles and feature
           articles in the area of industrial engineering and management .
         </div>
-        <div className='p-6 mt-12 text-3xl text-left text-gray-700 font-didcat font-semibold uppercase '>
+        <div className='xl:p-6 mt-12 text-3xl  text-gray-700 font-didcat font-semibold uppercase '>
           ABOUT KIIT DEEMED TO BE UNIVERSITY
         </div>
         <div>
-          Kalinga Institute of Industrial Technology (KIIT) is a deemed to be
-          university located in Bhubaneswar, Odisha, India. KIIT is unique among
-          its peer institutions in having nineteen schools co-located on one
-          contiguous campus offering more than 100 programs including UG/PG
-          studies in the disciplines including engineering, management, medicine
-          and law. KIIT has been awarded with Institute of eminence,Tier-1
-          status by NBA (AICTE), accredited with Grade ‘A’ by NAAC (UGC), ranked
-          42nd among the Indian universities ranked by NIRF, Govt. of India and
-          has been accredited by IET, UK. We also take pride in being home to
-          the largest and first tribal university of the world Kalinga Institute
-          of Social Sciences (KISS), a protégé of KIIT which is a noble
-          initiative of our honourable founder (KIIT/KISS) Dr. Achyuta Samanta.
-          Recently, KISS has been selected to host the 19th International
-          Congress of Anthropological and Ethnological Sciences (ICAES) in 2023.
+          Kalinga Institute of Industrial Technology (KIIT) Deemed to be
+          University, is an Institution of Eminence (IoE) - a status accorded to
+          top 20 Academic Institutions / Universities in the country out of 900+
+          Universities in India. KIIT is one of the most progressive
+          Universities and the best in Eastern India, ranked 24th as per the
+          prestigious NIRF rankings 2020. Recently KIIT has been honored with
+          the ISAS badge by International Association of Universities (IAU), UK
+          in recognition of our International approach in Teaching, Learning,
+          Research& Development Strategies. We are the only Indian University to
+          have received this coveted badge. Our campus is truly World Class.
+          Recently, KIIT has Bagged Top Spot in ARIIA Ranking (2020) among
+          self-financing institutions. We also take pride in being home to the
+          largest and first tribal university of the world Kalinga Institute of
+          Social Sciences (KISS), a protégé of KIIT which is a noble initiative
+          of our honourable founder (KIIT/KISS) Dr. Achyuta Samanta. Recently,
+          KISS has been selected to host the 19th International Congress of
+          Anthropological and Ethnological Sciences (ICAES) in 2023.
         </div>
-        <div className='p-6 mt-12 text-3xl text-gray-700 font-didcat font-semibold uppercase '>
+        <div className='xl:p-6 mt-12 text-3xl text-gray-700 font-didcat font-semibold uppercase '>
           ABOUT SCHOOL OF MECHANICAL ENGINEERING
         </div>
         <div>

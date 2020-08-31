@@ -54,8 +54,9 @@ export default function NavBar(props) {
               Home
             </Link>
             <div className='p-4 hide'>
-              <button onClick={toggle}>
-                <i class='fa fa-bars'></i>
+              <button className='flex' onClick={toggle}>
+                <div className='mr-2 self-center'>Menu</div>{' '}
+                <i class='self-center fa fa-bars'></i>
               </button>
             </div>
           </div>
